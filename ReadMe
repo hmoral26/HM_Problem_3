@@ -1,0 +1,11 @@
+User Registration Validation System - Problem 3
+
+This program uses the Chain of Responsibility pattern. Each validator checks one rule (username, password, email, phone)
+and then passes the request to the next validator.
+The Swing form only calls the first validator.
+Errors appear next to the matching fields. A success message appears only when everything is valid.
+Phone is optional.
+
+
+
+Resources: class pdfs and slides 
